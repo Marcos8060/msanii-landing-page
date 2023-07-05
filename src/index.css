@@ -9,7 +9,7 @@
 
 .heroSection {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   overflow-y: hidden;
   overflow-x: scroll;
 }
