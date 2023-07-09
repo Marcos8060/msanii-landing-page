@@ -14,6 +14,38 @@
   overflow-x: scroll;
 }
 
-.heroSection::-webkit-scrollbar{
+.heroSection::-webkit-scrollbar {
   display: none;
+}
+
+.values-slider .owl-item.active.center .item {
+  filter: blur(0);
+  transform: scale(1);
+  transition: all 0.5s;
+}
+
+.owl-item.active.center .slider {
+  transform: scale(0.9);
+}
+.slider {
+  transform: scale(0.6);
+}
+
+.owl-nav .owl-next {
+  color: #fff;
+  font-size: 18px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  line-height: 39px;
+}
+.owl-nav .owl-prev {
+  color: #fff;
+  font-size: 18px;
+  margin-top: -20px;
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  line-height: 39px;
 }
