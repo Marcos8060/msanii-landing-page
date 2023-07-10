@@ -8,20 +8,20 @@ import img4 from "../assets/images/b15.png";
 const Labels = () => {
   return (
     <>
-    <section className='px-12 py-6 space-y-4'>
+    <section className='sm:px-12 px-2 py-6 space-y-4'>
         <h1 className='text-xl text-white text-center'>Top Labels</h1>
-        <section className='flex items-center gap-4'>
+        <section className='md:flex grid items-center justify-center gap-4'>
             <div>
-                <img src={img1} alt="" />
+                <img className='object-cover' src={img1} alt="" />
             </div>
             <div>
-                <img src={img2} alt="" />
+                <img className='object-cover' src={img2} alt="" />
             </div>
             <div>
-                <img src={img3} alt="" />
+                <img className='object-cover' src={img3} alt="" />
             </div>
             <div>
-                <img src={img4} alt="" />
+                <img className='object-cover' src={img4} alt="" />
             </div>
         </section>
     </section>
