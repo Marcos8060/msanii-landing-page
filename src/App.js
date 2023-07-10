@@ -2,6 +2,7 @@ import Charts from "./components/Charts";
 import Events from "./components/Events";
 import Hero from "./components/Hero";
 import Intro from "./components/Intro";
+import Labels from "./components/Labels";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Intro />
         <Events />
         <Charts />
+        <Labels />
       </section>
     </>
   );

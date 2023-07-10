@@ -7,7 +7,7 @@ import img4 from "../assets/images/b9.png";
 const Charts = () => {
   return (
     <section className="bg-secondary px-12 py-6 space-y-4">
-      <h1 className="text-center text-xl font-semibold">Top Charts</h1>
+      <h1 className="text-center text-xl">Top Charts</h1>
       <section className="flex items-center gap-4">
         <div>
           <img src={img1} alt="" />
