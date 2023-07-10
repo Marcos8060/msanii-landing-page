@@ -45,8 +45,8 @@ const Events = () => {
       },
     },
     navText: [
-      `<img style="width: 60px; height: 60px" src=${img4} alt="images" />`,
-      `<img src=${img5} alt="images" style="width: 60px; height: 60px;" />`,
+      `<img style="width: 65px; height: 65px" src=${img4} alt="images" />`,
+      `<img src=${img5} alt="images" style="width: 65px; height: 65px;" />`,
     ],
   };
   return (
@@ -59,10 +59,10 @@ const Events = () => {
             <img className="max-w-[300px] mx-auto slider" src={img1} alt="" />
           </div>
           <div className="">
-            <img className="max-w-[300px] mx-auto slider" src={img2} alt="" />
+            <img className="max-w-[300px] mx-auto slider" src={img3} alt="" />
           </div>
           <div className="">
-            <img className="max-w-[300px] mx-auto slider" src={img3} alt="" />
+            <img className="max-w-[300px] mx-auto slider" src={img2} alt="" />
           </div>
           <div className="">
             <img className="max-w-[300px] mx-auto slider" src={img3} alt="" />
