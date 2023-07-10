@@ -31,21 +31,26 @@
   transform: scale(0.6);
 }
 
-.owl-nav .owl-next {
-  color: #fff;
-  font-size: 18px;
-  margin-top: -20px;
+.owl-nav .owl-next{
   position: absolute;
   top: 50%;
-  text-align: center;
-  line-height: 39px;
+  left: 2;
+  height: auto;
+  transform: translate(0,-50%);
+}
+.owl-nav .owl-prev{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: auto;
+  transform: translate(0, -50%);
+}
+
+.owl-nav .owl-next  {
+  left: auto;
+  right: 0px;
 }
 .owl-nav .owl-prev {
-  color: #fff;
-  font-size: 18px;
-  margin-top: -20px;
-  position: absolute;
-  top: 50%;
-  text-align: center;
-  line-height: 39px;
+  right: auto;
+  left: 0px;
 }

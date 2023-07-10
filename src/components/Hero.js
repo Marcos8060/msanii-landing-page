@@ -4,10 +4,11 @@ import img2 from "../assets/images/b2.png";
 import img3 from "../assets/images/b3.png";
 import img4 from "../assets/images/b18.png";
 
+
 const Hero = () => {
   return (
     <>
-      <section className="bg-primary h-[50vh] heroSection p-4 cursor-pointer">
+      <section className="bg-primary md:h-[44vh] h-auto heroSection p-4 cursor-pointer">
         <img
           className="h-56 w-[40vw] object-cover rounded-xl"
           src={img1}
